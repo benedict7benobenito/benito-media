@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benito Media - Video Editing | Marketing | Cyber Audit</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <div class="logo">BENITO MEDIA</div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#certs">Certificates</a>
+                <a href="#order" class="btn-nav">Order Now</a>
+            </div>
+        </nav>
+<header style="padding: 10px; display: flex; align-items: center;">
+    <img src="logo.png" alt="BENITO MEDIA Logo" style="height: 60px; width: auto; border-radius: 8px;">
+    <h2 style="margin-left: 25px;">BENITO MEDIA</h2>
+</header>
+        <section class="hero">
+            <h1>Video Editing, Digital Marketing & Cyber Security</h1>
+            <p>I edit videos that get views. I manage pages that sales. Certified FB Marketing - Simplilearn.</p>
+                <a href="https://wa.me/254140908833?text=Hi%20Benito%20Media%2C%20I%20want%20to%20order%20services"  class="btn">Order on WhatsApp</a>
+        </section>
+
+        <section>
+        <h2>services</h2>
+        <div class="cards">
+            <h3>Video and Photo Editing</h3>
+            <p>Reels, Tiktok, Youtube, Ads. Before/After retouch.</p>
+            <P>Tools I use: Adobe Premere Pro | After Effects | DaVinci Resolve | Audition
+            </P>
+            <p class="price">From Ksh 800</p>
+            <button onclick="oderService('Video Editing')">Order</button></div>
+        
+<div class="card">
+    <h3>Social Media Management</h3>
+    <p>FB & IG page growth, content creation, daily posting.</p>
+    <p class="price">From Ksh 2000/month</p>
+    <button onclick="oderService('Page Management')">Order</button>
+</div>
+<div class="card">
+    <h3>FB Ads & Digital Marketing</h3>
+    <p>Certified Ads setup that brings sales not just likes.</p>
+    <p class="price">From Ksh 2500</p>
+    <button onclick="oderService('FB Ads')">Order</button>
+</div>
+</div>
+        </section>
+<div class="card">
+    <h3>Cyber Security Audit</h3>
+    <p>Ethical hacking - secure your Fb Pages, website, M-pesa business.</p>
+    <p class="price">From Ksh 2500</p>
+        <button onclick="oderService(Cyber)">Order</button>
+</div>
+</div>
+        </section>
+        <section id="Portfolio" class="Portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <!--NEW VIDEO 1 Benito Media-->
+                <div class="p-item">
+                    <iframe width="100%" height="220"
+                    src="https://www.youtube.com/embed/zeTOzaxkLQs"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+                <p style="text-align:center; margin-top:8px; font-weight:bold;">🔥 Edit 1 - client Reel | Benito Media</p>
+            </div>
+            <!-- NEW VIDEO 2 - Benito Media -->
+<div class="p-item">
+  <iframe width="100%" height="220" 
+  src="https://www.youtube.com/embed/Lsx87dFVrDU" 
+  frameborder="0" 
+  allowfullscreen>
+  </iframe>
+  <p style="text-align:center; margin-top:8px; font-weight:bold;">🔥 Edit 2 - Client Reel | Benito Media</p>
+</div>
+            <p style="text-align:center; margin-top:20px;">visit our youtube channel for this and many other edited videos </p>
+        </section>
+
+<section id="crets" class="crets">
+    <br><br>
+    <h2>Certificates</h2>
+    <div class="Cert-grid">
+        <button onclick="window.open('Certificate.png.png', '_blank')">Digital Marketing</button>
+        <<button onclick="window.open('Facebook.png.png', '_blank')">Facebook  Ads</button>
+        <div class="cert"></div>
+    </div>
+</section>
+
+<section id="order" class="order">
+    <h2>Order & Pay</h2>
+    <p>Lipa na M-Pesa Pochi la Biashara: <b>0748671223</b></p>
+    <p>1. Pay 50% deposit 2.paste M-Pesa code below 3. Send files on WhatsApp</p>
+
+    <form id="orderForm">
+        <input type="text" id="name" placeholder="your Name" required>
+        <select id="service" required>
+            <option value="">Choose service</option>
+            <option>Video Editing</option>
+            <option>Photo Editing</option>
+            <option>Page Management</option>
+            <option>FB Ads</option>
+            <option>Cyber Security Audit</option>
+        </select>
+        <textarea id="details" placeholder="Describe what you want + deadline"></textarea>
+        <input type="text" id="mpesa" placeholder="M-Pesa Code e.g. QJD...">
+        <button type="submit class=btn">submit Order</button>
+    </form>
+</section>  
+
+
+
+<footer>
+    <P>Benito Media @ 2026 | WhatsAPP: 0748671223 | WE CREATE. MARKET. SECURE.</P>
+</footer>
+
+<script src="script.js"></script>
+    </body>
+</html>
